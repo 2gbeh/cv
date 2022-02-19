@@ -122,6 +122,8 @@ form button {
   font-size: 14px;
   font-weight: normal;
   display: inline-block;
+  position: relative;
+  bottom: 1px;
 }
 .pi:hover {
   background-color: #222;

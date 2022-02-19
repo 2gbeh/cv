@@ -1,1 +1,30 @@
 @charset "utf-8";
+
+footer {
+  padding: 60px 10px 20px;
+  text-align: center;
+}
+footer .container {
+  border-top: 1px solid #ddd;
+}
+footer ul {
+  margin: 40px 0 0;
+}
+footer ul li {
+  margin: 0 20px;
+}
+footer ul li a {
+  font-size: 14px;
+}
+footer ul li a:hover {
+  text-decoration: underline;
+}
+footer figure {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  bottom: 5px;
+}
+footer var {
+  margin-left: 10px;;
+}

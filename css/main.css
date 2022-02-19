@@ -20,7 +20,7 @@ main section ol {
   list-style-type: none;
 }
 main section ol li {
-  font-size: 14px;  
+  font-size: 14px;
 }
 /*************************************************************/
 main .left {
@@ -46,10 +46,13 @@ main section a.btn {
 main section a.btn:hover {
   text-decoration: none;
 }
+main .left .sec-1 .wrapper {
+  text-align: center;
+}
 main .left .sec-1 figure {
   background-color: #eee;
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 220px;
 }
 main .left .sec-1 h1 {
   margin-top: 20px;
@@ -58,9 +61,9 @@ main .left .sec-1 h1 {
 }
 main .left .sec-1 h2 {
   color: #777;
-  margin-top: 5px;
-  font-weight: lighter;
-  font-size: 24px;
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 22px;
 }
 main .left .sec-1 p {
   margin: 15px 0 0;
@@ -80,7 +83,7 @@ main .left .sec-1 ol li img {
   bottom: -2px;
 }
 main .left .sec-2 ol li {
-background-color: #ddd;
+  background-color: #ddd;
   margin: 5px;
   display: inline-block;
   vertical-align: middle;
@@ -109,79 +112,90 @@ main .right .sec-1 form button .fi {
 main .right .sec-1 form button:hover .fi {
   color: #222;
 }
-main .right .sec-2 a.btn {
+main .right .sec-2 a.btn-pri {
   padding: 8px 15px;
   font-size: 14px;
   float: right;
 }
+main .right .sec-2 a.btn-pri .fi {
+  color: yellow;
+  position: relative;
+  top: 2px;
+}
 main .right .sec-2 h2 a:hover {
   text-decoration: underline;
-} 
+}
 main .right .sec-2 h3 {
   color: #555;
   margin: 10px 0;
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 16px;
-} 
+}
 main .right .sec-2 ol {
   margin: 15px 0;
 }
 main .right .sec-2 ol li {
   display: inline-block;
   margin: 5px;
-} 
+}
 main .right .sec-2 ol li .pi {
   padding: 8px 16px;
-} 
+}
+main .right .sec-2 ol li .imp {
+  background-color: #222;
+  color: #fff;
+}
 main .right .sec-2 p {
   color: #555;
   font-size: 14px;
-} 
+}
 main .right .sec-2 .fi {
   margin-right: 0;
-} 
-main .right .sec-3 p {  
+}
+main .right .sec-3 p {
   font-size: 14px;
-} 
-main .right .sec-3 table tr {  
+}
+main .right .sec-3 table tr {
   vertical-align: top;
-} 
-main .right .sec-3 table tr td {  
+}
+main .right .sec-3 table tr td {
   padding: 20px 10px 10px;
   border: 1px solid #ddd;
   border-left: 0;
   font-size: 14px;
-} 
-main .right .sec-3 table tr td:first-child {
-background-color: #ffc;  
+  width: 100%;
+}
+main .right .sec-3 table tr th {
+  /* background-color: #ffc;   */
+  border: 1px solid #ddd;
   border-right: 0;
-  border-left: 1px solid #ddd;
-  padding: 20px 15px 0 10px;
+  padding: 25px 15px 0 10px;
   min-width: 30px;
   max-width: 30px;
   text-align: right;
-} 
-main .right .sec-3 table tr td p {  
+  font-weight: normal;
+}
+main .right .sec-3 table tr td p {
   color: #555;
   margin: 0;
   font-size: 12px;
-} 
+}
 main .right .sec-3 table tr td .em a {
-  margin: 0;  
+  margin: 0;
   float: right;
-} 
-main .right .sec-3 table tr td .em p {  
+}
+main .right .sec-3 table tr td .em p {
   margin-top: 8px;
   max-width: 640px;
   font-size: 14px;
-} 
+}
 main .right .sec-3 ol {
-  margin-left: 20px;  
+  margin-left: 20px;
   list-style-type: disc;
-} 
+}
 main .right .sec-3 ol li {
-  margin: 10px 0; 
-} 
+  margin: 10px 0;
+}
 main .right .sec-4 h1 {
   margin-left: 15px;
   /* font-size: 16px;
@@ -191,10 +205,10 @@ main .right .sec-4 h1 {
 main .right .sec-4 h2 {
   margin-right: 35px;
   font-size: 14px;
-  font-weight: lighter;
+  font-weight: normal;
   float: right;
 }
-main .right .sec-4 li {  
+main .right .sec-4 li {
   border: 1px solid #ccc;
   border-radius: 5px;
   margin: 10px;
@@ -202,7 +216,7 @@ main .right .sec-4 li {
   min-width: 430px;
   max-width: 430px;
   display: inline-block;
-} 
+}
 main .right .sec-4 li h3 {
   font-size: 16px;
 }
@@ -212,7 +226,7 @@ main .right .sec-4 li h3 a:hover {
 main .right .sec-4 li h4 {
   color: #555;
   margin: 10px 0;
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 14px;
 }
 main .right .sec-4 li .pi-alt {
@@ -228,11 +242,11 @@ main .right .sec-5 h1 {
   font-weight: normal;
 }
 main .right .sec-5 table {
-  margin:20px 0;
+  margin: 20px 0;
 }
 main .right .sec-5 table tr th {
   padding: 0 10px;
-  width:1px;
+  width: 1px;
   text-align: left;
   font-size: 14px;
   font-weight: normal;
@@ -260,44 +274,17 @@ main .right .sec-5 ol li i {
   bottom: 16px;
   left: -15px;
 }
-/*************************************************************/
-footer {
-  padding: 60px 10px 20px;
-  text-align: center;
-}
-footer .container {
-  border-top: 1px solid #ddd;
-}
-footer ul {
-  margin: 40px 0 0;
-}
-footer ul li {
-  margin: 0 20px;
-}
-footer ul li a {
-  font-size: 14px;
-}
-footer ul li a:hover {
-  text-decoration: underline;
-}
-footer figure {
-  width: 32px;
-  height: 32px;
-  position: relative;
-  bottom: 5px;
-}
-footer var {
-  margin-left: 10px;;
-}
 
 /*************************************************************/
-.mobile,
-nav {
-  display: none;
-}
 @media only screen and (max-width: 640px) {
-  main .left {
+  main ul > li {
+    display: block;
+  }
+  main .left, main .right {
     min-width: 100%;
     max-width: 100%;
+  }
+  main .left .sec-1 .wrapper {
+    text-align: left;
   }
 }
