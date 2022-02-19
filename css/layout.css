@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+  color: #222;
+}
+header,
+nav,
+footer {
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+ul > li {
+  display: inline-block;
+  vertical-align:top;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+input,
+select,
+textarea,
+button {
+  outline: none;
+  font-size: inherit;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+form input[readonly],
+form select[readonly],
+form textarea[readonly] {
+  background-color: #eee;
+}
+input:focus,
+select:focus,
+textarea:focus {
+  background-color: #fafafa;
+}
+address,
+cite,
+span,
+var,
+i,
+u {
+  text-decoration: none;
+  font-style: normal;
+  display: inline-block;
+}
+
+form input,
+form select {
+  border: solid thin #ccc;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+form button {
+  font-size: 15px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1280px;
+}
+
+.thumbnail {
+  background-image: url("../img/default.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: scroll;
+  background-size: cover;
+  border: 1px solid #ccc;
+  border-radius: 100%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.fi {
+  color: #777;
+  margin-right: 5px;
+  font-size: 14px;
+  position: relative;
+  bottom: -1px;
+}
+
+.pi {  
+  background-color: #eee;
+  color: #555;
+  border-radius: 20px;
+  margin-left: 5px;
+  padding: 6px 10px;
+  font-size: 14px;
+  font-weight: normal;
+  display: inline-block;
+}
+.pi:hover {
+  background-color: #222;
+  color: #fff;
+  border-color: #222;
+}
+.pi-alt {  
+  background-color: transparent;
+  color: #555;
+  border: solid thin #ccc;
+  border-radius: 20px;
+  margin-left: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: normal;
+  display: inline-block;
+  vertical-align: top;
+}
+.pi-alt:hover {
+  background-color: #eee;
+  cursor: default;
+}
+
+.em {  
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 15px;
+  margin-left: 0;
+  padding: 20px;
+  font-style: normal;
+  display: block;
+} 
+
+.btn {
+  background-color: #eee;
+  border: solid thin #ccc;
+  border-radius: 5px;
+  padding: 6px 10px;
+  text-align: center;
+}
+.btn:hover {
+  background-color: #ddd;
+  border-color: #999;
+  text-decoration: none;
+}
+.btn-pri {
+  background-color: #222;
+  color: #fff;
+  border: solid thin #222;
+  border-radius: 5px;
+  padding: 8px 15px;
+  text-align: center;
+}
+.btn-pri:hover {
+  background-color: transparent;
+  color: #222;
+  text-decoration: none;
+}
+.btn-pri:hover .fi {
+  color: #222;
+}
+
+.dot {
+  background-color: #222;
+  border-radius: 100%;
+  margin-right: 2px;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  bottom: -4px;
+} 
+
+@media only screen and (max-width: 683px) {
+  
+}

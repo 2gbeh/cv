@@ -1,0 +1,25 @@
+{
+  "name": "Tugbeh Emmanuel Osaretin",
+  "short_name": "Tugbeh, E.O.",  
+  "description": "Full-Stack Web Developer",
+  "background_color": "#ffffff",
+  "theme_color": "#24292f",
+  "start_url": "index.html",
+  "scope": "/",  
+  "display": "standalone",
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "/img/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/msapplication-tile-image.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
