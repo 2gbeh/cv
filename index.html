@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
 
-  <meta name="description" content="Full-Stack Web Developer with over 7 years' experience in Software Engineering, Computer Training, and Interface Design." />
+  <meta name="description" content="Full-Stack Web Developer with over 7 years' experience in Software Engineering, UI/UX Design, and Computer Training." />
   <meta name="keywords" content="full-stack,web developer,software engineer,product manager,computer training,ui/ux,hwp,hwp labs,tugbeh,emmauel tugbeh,tugbeh emmanuel osaretin" />
   <meta name="robots" content="index,follow" />
   <meta name="owner" content="HWP Labs" />
@@ -16,7 +16,7 @@
   <!-- Open Graph -->
   <meta property="og:site_name" content="CV" />
   <meta property="og:title" content="CV - Tugbeh Emmanuel Osaretin" />
-  <meta property="og:description" content="Full-Stack Web Developer with over 7 years' experience in Software Engineering, Computer Training, and Interface Design." />
+  <meta property="og:description" content="Full-Stack Web Developer with over 7 years' experience in Software Engineering, UI/UX Design, and Computer Training." />
   <meta property="og:url" content="https://2gbeh.github.io/cv/" />
   <meta property="og:image" content="https://2gbeh.github.io/cv/img/social-preview.png" />
   <meta property="og:image:alt" content="Social Preview" />
@@ -26,7 +26,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="CV - Tugbeh Emmanuel Osaretin" />
-  <meta name="twitter:description" content="Full-Stack Web Developer with over 7 years' experience in Software Engineering, Computer Training, and Interface Design." />
+  <meta name="twitter:description" content="Full-Stack Web Developer with over 7 years' experience in Software Engineering, UI/UX Design, and Computer Training." />
   <meta name="twitter:url" content="https://2gbeh.github.io/cv/" />
   <meta name="twitter:image" content="https://2gbeh.github.io/cv/img/social-preview.png" />
   <meta name="twitter:image:src" content="https://2gbeh.github.io/cv/img/social-preview.png" />
@@ -39,6 +39,7 @@
 
   <link href="./css/layout.css" type="text/css" rel="stylesheet" />
   <link href="./css/header.css" type="text/css" rel="stylesheet" />
+  <link href="./css/nav.css" type="text/css" rel="stylesheet" />
   <link href="./css/main.css" type="text/css" rel="stylesheet" />
   <link href="./css/footer.css" type="text/css" rel="stylesheet" />
   <link href="./fi/uicons-regular-straight.css" type="text/css" rel="stylesheet" />
@@ -48,8 +49,8 @@
 </head>
 <body id="top">
   <header>
-    <div class="wrapper">
-      <ul class="desktop">
+    <section class="desktop">
+      <ul>
         <li>
           <a href="#about">
             <i class="fi fi-rs-home"></i>
@@ -84,41 +85,90 @@
           </a>
         </li>
         <li>
-          <a href="#gits">
+          <a href="#repo">
             <i class="fi fi-rs-bulb"></i>
             <u>Projects</u>
             <b class="pi">5</b>
           </a>
         </li>
       </ul>
-    </div>
-    <ul class="mobile">
-      <li>
-        <a href="index.html" title="Home">
-          <figure style="background-image: url('./img/passport.png');" class="thumbnail">&nbsp;</figure>
-        </a>
-      </li>      
-      <li>
-        <a href="javascript:void(0)" onclick="toggle()">
-          <i class="fi fi-rs--menu-burger"></i>
-        </a>
-      </li>
-    </ul>
+    </section>
+    <section class="mobile">
+      <table border="0">
+      <tr>
+        <th>
+          <a href="index.html" title="Home">
+            <figure style="background-image: url('./img/logo.png');" class="thumbnail">&nbsp;</figure>
+          </a>
+        </th>
+        <td>
+          <a href="javascript:void(0)" onclick="toggle()">
+            <i class="fi fi-rs-menu-burger"></i>
+          </a>
+        </td>
+      </tr>
+      </table>
+    </section>
   </header>
+
+  <nav id="drawer">
+      <ul>
+        <li>
+          <a href="#about">
+            <i class="fi fi-rs-home"></i>
+            <u>Overview</u>
+          </a>
+        </li>
+        <li>
+          <a href="#edu" class="focus">
+            <i class="fi fi-rs-graduation-cap"></i>
+            <u>Education</u>
+          </a>
+        </li>
+        <li>
+          <a href="#work">
+            <i class="fi fi-rs-building"></i>
+            <u>Employment</u>
+            <b class="pi">9</b>
+          </a>
+        </li>
+        <li>
+          <a href="#cert">
+            <i class="fi fi-rs-diploma"></i>
+            <u>Certificates</u>
+            <b class="pi">12</b>
+          </a>
+        </li>
+        <li>
+          <a href="#lang">
+            <i class="fi fi-rs-star"></i>
+            <u>Proficiency</u>
+            <b class="pi">12</b>
+          </a>
+        </li>
+        <li>
+          <a href="#repo">
+            <i class="fi fi-rs-bulb"></i>
+            <u>Projects</u>
+            <b class="pi">5</b>
+          </a>
+        </li>
+      </ul>
+  </nav>  
 
   <main>
     <div class="container">
       <ul>
         <li class="left">
           <section class="sec-1">
-            <figure style="background-image: url('./img/logo.png');" class="thumbnail" title="Tugbeh Emmanuel">&nbsp;</figure>
+            <div class="wrapper">
+              <figure style="background-image: url('./img/logo.png');" class="thumbnail" title="Tugbeh Emmanuel">&nbsp;</figure>
+            </div>
             <h1>Emmanuel Osaretin <br/>Tugbeh </h1>
-            <!-- <h2><i class="fi fi-rs-child-head"></i> Sep 15, 1992</h2> -->
-            <h2>Lagos, NG</h2>
+            <h2>Product Manager, HWP Labs</h2>
             <p>
               <i class="fi fi-rs-quote-right"></i>
-              Full-Stack Web Developer with over 7 years' experience in Software Engineering, Computer Training, and Interface Design. 
-              <!-- Django, Laravel, MERN -->
+              Full-Stack Web Developer with over 7 years' experience in Software Engineering, UI/UX Design, and Computer Training.
               <a href="javascript:void(0)" class="btn">
                 <!-- <i class="fi fi-rs-download"></i> -->
                 <i class="fi fi-rs-print"></i>                
@@ -173,28 +223,29 @@
             <ol>
               <li><img src="./img/org_niit.png" alt="HWP Labs" title="HWP Labs" /></li>
               <li><img src="./img/org_azl.png" alt="HWP Labs" title="HWP Labs" /></li>
-              <li><img src="./img/org_cict.png" alt="HWP Labs" title="HWP Labs" /></li>
-              <li><img src="./img/org_coe.png" alt="HWP Labs" title="HWP Labs" /></li>
-              <li><img src="./img/org_ssmc.png" alt="HWP Labs" title="HWP Labs" /></li>
               <li><img src="./img/org_ubn.png" alt="HWP Labs" title="HWP Labs" /></li>
-              <li><img src="./img/org_racai.png" alt="HWP Labs" title="HWP Labs" /></li>
               <li><img src="./img/org_nhn.png" alt="HWP Labs" title="HWP Labs" /></li>
+              <li><img src="./img/org_coe.png" alt="HWP Labs" title="HWP Labs" /></li>
+              <li><img src="./img/org_cict.png" alt="HWP Labs" title="HWP Labs" /></li>
+              <li><img src="./img/org_ssmc.png" alt="HWP Labs" title="HWP Labs" /></li>
+              <li><img src="./img/org_racai.png" alt="HWP Labs" title="HWP Labs" /></li>
               <li><img src="./img/org_hwp.png" alt="HWP Labs" title="HWP Labs" /></li>
             </ol>            
           </section>
           <section class="sec-2">
             <h3>Communities</h3>
             <ol>
-              <li><img src="./img/vol_gdg.png" alt="Google Developer Group (GDG)" title="Google Developer Group (GDG)" /></li>
-              <li><img src="./img/vol_gsa.png" alt="Google Student Ambassador (GSA)" title="Google Student Ambassador (GSA)" /></li>
               <li><img src="./img/vol_kot.png" alt="Kotlin Developer Community" title="Kotlin Developer Community" /></li>
-              <li><img style="width: 50px;" src="./img/vol_nacoss.png" alt="Nigeria Computer Society (NCS)" title="Nigeria Computer Society (NCS)" /></li>
-              <li><img style="width: 50px;" src="./img/vol_nysc.png" alt="Nigeria Computer Society (NCS)" title="Nigeria Computer Society (NCS)" /></li>
-              <li><img style="width: 50px;" src="./img/vol_gtl.png" alt="Nigeria Computer Society (NCS)" title="Nigeria Computer Society (NCS)" /></li>
+              <li><img src="./img/vol_gsa.png" alt="Google Student Ambassador (GSA)" title="Google Student Ambassador (GSA)" /></li>
+              <li><img src="./img/vol_gdg.png" alt="Google Developer Group (GDG)" title="Google Developer Group (GDG)" /></li>
+              <li><img src="./img/vol_gtl.png" alt="Nigeria Computer Society (NCS)" title="Nigeria Computer Society (NCS)" /></li>
+              <li><img src="./img/vol_nacoss.png" alt="Nigeria Computer Society (NCS)" title="Nigeria Computer Society (NCS)" /></li>
+              <li><img src="./img/vol_nysc.png" alt="Nigeria Computer Society (NCS)" title="Nigeria Computer Society (NCS)" /></li>
             </ol>
           </section>
         </li>
         <li class="right">
+<!-- /////////////////////////////////////////////////////////////////////////////////// -->                  
           <section class="sec-1">
             <form action="" method="get" autocomplete="off" onsubmit="return false">
               <input type="search" name="q" placeholder="Keyword search..." list="dl-q" onkeyup="handle(this, event, fn)" />
@@ -212,8 +263,9 @@
               </button>
             </form>
           </section>
-          <section class="sec-3">
-            <h2 href="#top" id="about">Overview</h2>
+<!-- /////////////////////////////////////////////////////////////////////////////////// -->          
+          <section class="sec-3" id="about">
+            <h2><a href="#top">Overview</a></h2>
             <p>
               Self-taught full stack web developer with 9 years’ experience in enterprise software development and computer training.
               Certified IT specialist with industry-relevant skills in graphics design, web application development, UI/UX design, data
@@ -221,17 +273,19 @@
               achieved through several demonstrations of ownership mentality and self-motivated workplace initiatives.
             </p>
           </section>
-          <section class="sec-3">
-            <h2 href="#top" id="edu">Education</h2>
+<!-- /////////////////////////////////////////////////////////////////////////////////// -->          
+          <section class="sec-3" id="edu">
+            <h2><a href="#top">Education</a></h2>
             <p></p>
             <table border="0">
               <tr>
-                <td><input type="checkbox" checked disabled /></td>
+                <th><input type="checkbox" checked disabled /></th>
                 <td>
+                  <b style="float:right;">04/2019 – 10/2020</b>
                   <b>Master of Science (M.Sc.) in Computer Science</b>
                   <p>University of Benin, Benin City, Edo State</p>
                   <div class="em">                      
-                      <a href="javascript:void(0)" class="btn-pri">In-view</a>
+                      <!-- <a href="javascript:void(0)" class="btn-pri">In-view</a> -->
                       <b>Advanced Software Engineering</b>
                       <p>
                         <ol>
@@ -247,13 +301,14 @@
                 </td>
               </tr>
               <tr>
-                <td><input type="checkbox" checked /></td>
+                <th><input type="checkbox" checked /></th>
                 <td>
+                  <b style="float:right;">10/2010 – 07/2014 </b>
                   <b>Bachelor of Science (B.Sc.) in Computer Science</b>
                   <p>Benson Idahosa University, Benin City, Edo State</p>
                   <div class="em">                      
                       <b>Second Class Upper Division</b>
-                      <a href="javascript:void(0)" class="btn-pri">Request Transcripts</a>
+                      <!-- <a href="javascript:void(0)" class="btn-pri">Request Transcripts</a> -->
                       <p>
                         <ol>
                           <li>Founded a youth talent discovery and development platform called Teen Talk Nigeria.</li>
@@ -275,23 +330,26 @@
                 </td>
               </tr>              
               <tr>
-                <td><input type="checkbox" checked /></td>
+                <th><input type="checkbox" checked /></th>
                 <td>
+                  <b style="float:right;">09/2008 – 05/2009 </b>
                   <b>West African Senior School Certificate Examination (WASSCE)</b>
                   <p>Edidot College, Ajah-Lekki, Lagos State.</p>
                 </td>
               </tr>
               <tr>
-                <td><input type="checkbox" checked /></td>
+                <th><input type="checkbox" checked /></th>
                 <td>
+                  <b style="float:right;">09/2001 – 05/2003 </b>
                   <b>First School Leaving Certificate (FSLC)</b>
-                  <p>Combine all commits from the head branch into a single commit in the base branch.</p>
+                  <p>Ebun Heritage Foundation, Ikeja, Lagos State</p>
                 </td>
               </tr>
             </table>
           </section>
-          <section class="sec-5">
-            <h2 href="#top" id="work">Employment History</h2>
+<!-- /////////////////////////////////////////////////////////////////////////////////// -->          
+          <section class="sec-5" id="work">
+            <h2><a href="#top">Employment History</a></h2>
             <h1>D-Peterson Foundation, Agbor-Obi, Delta State</h1>
             <table border="0">
               <tr>
@@ -302,11 +360,11 @@
             </table>
             <ol>
               <li>
-                <i class="fi fi-rs-star"></i> 
+                <i class="fi fi-rs-thumbtack"></i> 
                 <u>Created 68 commits in 16 repositories</u>
               </li>
               <li>
-                <i class="fi fi-rs-star"></i> 
+                <i class="fi fi-rs-thumbtack"></i> 
                 <u>Created 11 repositories</u>
               </li>
             </ol>
@@ -320,46 +378,68 @@
             </table>            
             <ol>
               <li>
-                <i class="fi fi-rs-star"></i> 
+                <i class="fi fi-rs-thumbtack"></i> 
                 <u>Created 194 commits in 18 repositories</u>
               </li>
               <li>
-                <i class="fi fi-rs-star"></i> 
+                <i class="fi fi-rs-thumbtack"></i> 
                 <u>Created 13 repositories</u>
               </li>
               <li>
-                <i class="fi fi-rs-star"></i> 
+                <i class="fi fi-rs-thumbtack"></i> 
                 <u>Opened 5 pull requests in 2 repositories</u>
               </li>
             </ol>
           </section>             
-          <section class="sec-3">
-            <h2 href="#top" id="cert">Certificates</h2>
+<!-- /////////////////////////////////////////////////////////////////////////////////// -->          
+          <section class="sec-3" id="cert">
+            <h1><a href="#top">Certificates</a></h1>
             <p></p>
             <table border="0">
               <tr>
-                <td><input type="checkbox" checked /></td>
+                <th><input type="checkbox" checked /></th>
                 <td>
                   <b>Certificate of Mentorship in UI/UX Design </b>
                   <p>2021 - GoodTalent Labs</p>
                 </td>
               </tr>
               <tr>
-                <td><input type="checkbox" checked /></td>
+                <th><input type="checkbox" checked /></th>
                 <td>
                   <b>TBLF Virtual Teachers Support Program</b>
-                  <p>2020 - The Bridge Leadership Foundation</p>
+                  <p>2020 - The Bridge Leadership Foundation (TBLF)</p>
                 </td>
               </tr>
               <tr>
-                <td><input type="checkbox" checked /></td>
+                <th><input type="checkbox" checked /></th>
+                <td>
+                  <b>Certificate of National Service of Nigeria</b>
+                  <p>2015 - National Youth Service Corps (NYSC)</p>
+                </td>
+              </tr>              
+              <tr>
+                <th><input type="checkbox" checked disabled /></th>
+                <td>
+                  <b>HSE 1-3, First Aid and Practical Fire Fighting</b>
+                  <p>2015 - Safeguard Safety and Management Centre</p>
+                </td>
+              </tr>              
+              <tr>
+                <th><input type="checkbox" checked /></th>
                 <td>
                   <b>Specialist in IT/Engineering</b>
                   <p>2015 - PushCV</p>
                 </td>
               </tr>
               <tr>
-                <td><input type="checkbox" checked /></td>
+                <th><input type="checkbox" checked /></th>
+                <td>
+                  <b>Google Student Ambassador</b>
+                  <p>2014 - Google, Inc.</p>
+                </td>
+              </tr>              
+              <tr>
+                <th><input type="checkbox" checked /></th>
                 <td>
                   <b>Google Maps Engine Expert</b>
                   <p>2013 - Google, Inc.</p>
@@ -367,16 +447,13 @@
               </tr>
             </table>
           </section>
-
-          <section class="sec-2">
-            <h2>
-              <a href="#top" id="lang">Technical Proficiency</a> 
-              <!-- <b class="pi-alt">Public</b> -->
-            </h2>
-            <a href="javascript:void(0)" class="btn">
-              <i class="fi fi-rs-star"></i>
-              <u>JS, PHP</u>
+<!-- /////////////////////////////////////////////////////////////////////////////////// -->
+          <section class="sec-2" id="lang">
+            <a href="javascript:void(0)" class="btn-pri">
+              <i class="fi fi-rs-bell"></i>
+              <u>12</u>
             </a>            
+            <h1><a href="#top">Technical Proficiency</a></h1>
             <h3>Programming languages and level of familiarity</h3>
             <ol>
               <li><a href="javascript:void(0)" class="pi">1. C++ - intermediate</a></li>
@@ -385,10 +462,10 @@
               <li><a href="javascript:void(0)" class="pi">4. Git - advanced</a></li>
               <li><a href="javascript:void(0)" class="pi">5. HTML/CSS - advanced</a></li>
               <li><a href="javascript:void(0)" class="pi">6. Java - advanced</a></li>
-              <li><a href="javascript:void(0)" class="pi">7. JavaScript - advanced</a></li>
+              <li><a href="javascript:void(0)" class="pi imp">7. JavaScript - advanced</a></li>
               <li><a href="javascript:void(0)" class="pi">8. Kotlin - intermediate</a></li>
-              <li><a href="javascript:void(0)" class="pi">9. PHP - advanced</a></li>
-              <li><a href="javascript:void(0)" class="pi">10. Python - advanced</a></li>
+              <li><a href="javascript:void(0)" class="pi imp">9. PHP - advanced</a></li>
+              <li><a href="javascript:void(0)" class="pi imp">10. Python - advanced</a></li>
               <li><a href="javascript:void(0)" class="pi">11. Ruby - intermediate</a></li>
               <li><a href="javascript:void(0)" class="pi">12. SQL - advanced</a></li>
             </ol>
@@ -397,10 +474,11 @@
               <i class="fi fi-rs-star"></i> <b>1</b> &nbsp;&nbsp;
               Updated 3 hours ago
             </p> -->
+<!-- /////////////////////////////////////////////////////////////////////////////////// -->            
           </section>
-          <section class="sec-4">
+          <section class="sec-4" id="repo">
             <h2>Source codes available on GitHub</h2>
-            <h1 href="#top" id="gits">Software Projects</h1>
+            <h1><a href="#top">Software Projects</a></h1>
             <ol>
               <li>
                 <h3>
@@ -500,7 +578,7 @@
       </ul>
     </div>
   </main>
-
+<!-- /////////////////////////////////////////////////////////////////////////////////// -->
   <footer>
     <div class="container">
       <ul>
@@ -511,22 +589,26 @@
           </a>
         </li>
         <li>
-          <a href="javascript:void(0)">Overview</a>
+          <a href="#about">Overview</a>
         </li>
         <li>
-          <a href="javascript:void(0)">Overview</a>
+          <a href="#edu">Education</a>
         </li>
         <li>
-          <a href="javascript:void(0)">Overview</a>
+          <a href="#work">Employment</a>
         </li>
         <li>
-          <a href="javascript:void(0)">Overview</a>
+          <a href="#cert">Certificates</a>
         </li>
         <li>
-          <a href="javascript:void(0)">Overview</a>
+          <a href="#lang">Proficiency</a>
+        </li>
+        <li>
+          <a href="#repo">Projects</a>
         </li>
       </ul>
-      <!-- <section>
+      <!--       
+      <section>
         <a href="" title="Reload">
           <figure style="background-image: url('./img/logo.png');" class="thumbnail">&nbsp;</figure>
         </a>
