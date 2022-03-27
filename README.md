@@ -1,3 +1,2 @@
 # cv
-Tugbeh Emmanuel Osaretin
-> Full-Stack Web Developer with over 7 years' experience in Software Engineering, UI/UX Design, and Computer Training.
+Self-taught full-Stack developer with over 10 years' experience in enterprise software development and training.
