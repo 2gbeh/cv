@@ -1,0 +1,32 @@
+﻿# BIU Portal
+URL: https://biuportal.org/admin
+Username: webmaster@test.com
+Password: password
+Summary: Benson Idahosa University Admission Portal
+Role: Backend Developer (Laravel)
+Contributions: Developed the backend APIs using PHP (Laravel) and MySQL
+
+# Spottr
+URL: https://sbh.spottr.app
+Summary: Location-based E-Commerce Platform
+Role: Frontend Developer (React.js + TypeScript)
+Contributions: Developed the frontend UI using React.js and integrated CRUD operations on a Node.js backend
+
+# Buzzbite
+URL: https://app.buzzbite.io
+Summary: Brands & Influencers Marketplace
+Role: Frontend Developer (Next.js)
+Contributions: Developed the frontend UI using Next.js and integrated CRUD operations on a Laravel backend
+
+# Zentry
+URL: https://zentry.vercel.app
+Summary: Internal Database Application (Web App)
+Role: Full-Stack Developer (React.js + TypeScript)
+Contributions: Developed the frontend using React.js and integrated CRUD operations with Firebase
+
+# Eventra
+URL: https://eventra.vercel.app
+Summary: Event Attendance Tracker (Web App)
+Role: Full-Stack Developer (Vue.js + TypeScript)
+Contributions: Developed the frontend using Vue.js and integrated CRUD operations with PostgreSQL (Supabase)
+
